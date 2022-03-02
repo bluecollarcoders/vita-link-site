@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/main.scss" />
+    <link rel="stylesheet" href="/src/main.css" />
+    <link rel="stylesheet" href="/src/utilities.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="hero">
+      <navbar class="navbar top" id="navbar">
+        <div class="container flex-nav">
+          <div class="nav-header">
+            <a href="/src/index.html"
+              ><h2>Vita <span>Link</span></h2></a
+            >
+            <button class="nav-toggle" id="navToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <nav class="nav-links" id="nav-links">
+            <ul>
+              <li class="nav-link"><a href="/src/index.html">Home</a></li>
+              <li class="nav-link"><a href="#therapy">About</a></li>
+              <li class="nav-link"><a href="/src/services.html">Services</a></li>
+              <li class="nav-link"><a href="/src/faq.html">Faqs</a></li>
+              <li class="nav-link">
+                <a href="/src/contact.html"><span>Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </navbar>
+
+      <div class="content">
+        <h1>VitaLink Behavioral Health Services, LLC</h1>
+        <p>We provide world class mental health assistance</p>
+        <a href="#therapy" class="btn">
+          <i class="fas fa-chevron-right"></i> Read More</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- services -->
+
+      <section id="about" class="icons bg-light">
+        <!-- section card -->
+
+        <div class="container">
+          <!-- container -->
+
+          <div class="row">
+            <!-- card 1 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="box-part text-center">
+                <i class="fas fa-users fa-4x" aria-hidden="true"></i>
+                <div class="title">
+                  <h3>Therapy</h3>
+                </div>
+                <div class="text">
+                  <span>We treat anxiety, degression, and perform couples therapy </span>
+                </div>
+                <a href="/src/calendar.html" class="btn">Learn More</a>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="box-part text-center">
+                <i class="fas fa-address-card fa-4x" aria-hidden="true"></i>
+                <div class="title">
+                  <h3>Remote Consultaion</h3>
+                </div>
+                <div class="text">
+                  <span>We accomadate indiviuals with hectic schedules and offer tele health services</span>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="box-part text-center">
+                <i
+                  class="fas fa-hand-holding-heart fa-4x"
+                  aria-hidden="true"
+                ></i>
+                <div class="title">
+                  <h3>Lifeskills Coaching</h3>
+                </div>
+                <div class="text">
+                  <span>We offer guided life coaching. You never have to feel alone</span>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="therapy" class="container">
+        <h2 class="about">About Us</h2>
+        <div class="row">
+          <div class="col-md-6 how-img">
+            <img
+              src="/src/images/pexels-alex-green-5699482.jpg"
+              alt="pierres-photo"
+              class="img-thumbnail"
+            />
+          </div>
+          <div class="col-md-6">
+            <p class="text-muted">
+              VitaLink Behavioral Health Services, LLC is a group practice which
+              aims to bring mental health, physical health, and financial
+              guidance services to Maplewood and Essex County residents under
+              one roof.
+              <br />
+              <br />
+              You are sure to find a connection for your needs with at least one
+              of our counselors or coaches. All of our counselors and coaches
+              are independent contractors. Our counselors are licensed
+              professionals in the field of mental health. Our range of
+              certified coaches vary in niches such as executive coaching,
+              relationship coaching, and life coaching.
+              <br />
+              <br />
+
+              While working on your mind and spirit, you may be compelled to
+              drop into our health and wellness classes and workshops or even
+              work with our financial coaches who work as financial advisors and
+              planners and are able to assist with simple budgets to wealth
+              management and estate planning. *Payments are due at the time of
+              counseling or coaching appointments.
+            </p>
+            <br />
+            <a href="/src/calendar.html" class="btn">book session</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- signup section -->
+
+      <section class="signup">
+        <div class="form-background">
+          <h2>Subscribe</h2>
+          <p>Sign up to hear from us</p>
+          <!-- form container -->
+          <div class="container">
+            <!-- form -->
+            <form action="">
+              <!--Grid row-->
+              <div class="row justify-content-center">
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-5 col-12 mb-4 mb-md-0">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input
+                      type="email"
+                      id="form5Example25"
+                      class="form-control"
+                      placeholder="email"
+                    />
+                    <label class="form-label" for="form5Example25"></label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-auto mb-4 mb-md-0">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-danger mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="page-footer font-small"
+      style="background: rgb(56, 49, 49); opacity: 1"
+    >
+      <!-- Footer Links -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/src/index.html">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#therapy">About</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/src/services.html">Services</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/src/faq.html">FAQS</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="/src/contact.html">Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+        <hr class="rgba-white-light" style="margin: 0 15%" />
+       <br>
+       <br>
+        <div class="container">
+          <div class="row justify-content-center nav-pad">
+          <div class="col-md-4">
+          <address>
+            <strong>Vita Link Behavorial Health Services, LLC</strong><br>
+            2130 Milburn Avenue Suite C3<br>
+            MapleWood, NJ 07040<br>
+            <abbr title="Phone"><i class="fas fa-phone"></i></abbr> (862) 621-8922
+          </address>
+          
+          <address>
+            <strong>Pierre A. Oscar MSW, MA, LCSW </strong><br>
+            <strong>Clinical Social Worker </strong><br>
+            <i class="fas fa-envelope-square"><a style="padding: 5px;" href="mailto:#">paoscar06@gmail.com</a></i>
+            
+          </address>
+          </div>
+          </div>
+          </div>
+
+          
+        <hr
+          class="clearfix d-md-none rgba-white-light"
+          style="margin: 10% 15% 5%"
+        />
+
+        <!-- Grid container -->
+  <div class="container p-4 pb-0 text-center">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+     
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+     
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2022 Copyright:
+        <a href="/src/index.html"> VitaLink LLC</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/mobile.js"></script>
+  </body>
+</html>
